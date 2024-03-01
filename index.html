@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Daniel Ventura</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+            <span class="site-title">DANIEL VENTURA</span>
+          <span class="site-description">Programmer • System Technician • Graphic Designer</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/daniel-ventura-il/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/smooth3x">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:daniel.ventura.it@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/Professional-Picture-Me.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/Professional-Picture-Me.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          I am a junior in the faculty of Computer Sciences at Holon Institute of Technology, 
+          pursuing an undergraduate degree. I was involved in HIT-Hackthon, where I designed a platform that helps 
+          students manage their schedule, assignments and practices. I am interested in exploring the fields of Software 
+          Development, Automations, and Data Analysis, and I am seeking opportunities in these areas.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-csharp-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+        </div>
+
+        <!-- Technology Stack #2: Front-End -->
+        <div class="tech">
+          <h2>Front-End</h2>
+          <!--<i class="devicon-react-original colored"></i>!-->
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <p>My preferred technologies for front-end web development and component design.</p>
+        </div>
+
+        <!-- Technology Stack #3: Back-End -->
+        <div class="tech">
+          <h2>Back-End</h2>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-express-original-wordmark colored"></i>
+          <i class="devicon-dot-net-plain-wordmark colored"></i>
+          <i class="devicon-mysql-plain-wordmark colored"></i>
+          <p>My preferred technologies for back-end web programming and database architecture.</p>
+        </div>
+
+        <!-- Technology Stack #4: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-visualstudio-plain colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-docker-plain-wordmark colored"></i>
+          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Project-Clothing-Store.webp" alt="Clothing Store" />
+            <img alt="Clothing Store" src="./assets/img/jpg/Project-Clothing-Store.png" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Clothing Store</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg"
+              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+            />
+            &nbsp;
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/microsoftazure.svg"
+              style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
+            />
+            &nbsp;
+          </div>
+          <p style="text-align: justify">
+            I developed and designed a Clothing Store using Java and AzureDB. The application  It was developed as final project
+            in "Programming in internet environment" course.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/smooth3x/HIT-Internet-Env-Programing-Project-ClothingStore">Check it out!</a>
+        </div>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Project-Mitkan-Helper.webp" alt="Mitkan Helper" />
+            <img alt="Mitkan Helper" src="./assets/img/jpg/Project-Mitkan-Helper.JPG" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Mitkan Helper</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/dot-net.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/csharp.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/microsoftsqlserver.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <p style="text-align: justify">
+            As part of my Military Service, I created a CRM platform for my IT department using .NET WPF and Microsoft
+            SQL. The main goal was to synchronize between both Helpdesk and Technicians teams and organize
+            a support-hierarchy pipeline.
+          </p>
+          <!--<a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project">Check it out!</a>!-->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Daniel Ventura, 2024</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
